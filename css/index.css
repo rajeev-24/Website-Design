@@ -1,0 +1,159 @@
+@import url(bloghomesmall.css) (max-width:700px);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+body{
+    background-color: rgb(190, 233, 170);
+}
+@media (min-width:700px){
+.contain{
+    width: 90vw;
+    height: 100vh;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50px 135px;
+    grid-template-rows: 100px 450px 60px;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sd sd sd sd main main main main" 
+    "ft ft ft ft ft ft ft ft";
+}
+.box{
+background-color:rgb(190, 233, 170);
+}
+#header{
+    grid-area: hd;
+    font-family: 'open sans' serif;
+    color: cyan;
+}
+#sidebar{
+    grid-area: sd;
+}
+#content{
+    grid-area: main;
+}
+#footer{
+    grid-area: ft;
+}
+.nestedGrid{
+    
+    display: grid;
+    padding: 15px;
+    height: 90%;
+    grid-template-rows: 100%;
+    grid-template-columns: 30% 30% 30%;
+    
+}
+#one{
+    background-color: mintcream;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    width: 15rem;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 10px;
+}
+#two{
+    background-color: mintcream;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    text-align: center;
+    width: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+#three{
+    background-color: mintcream;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    width: 15rem;
+    border-radius: 10px;
+}
+#footer{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: "sofia";
+}
+#c2{
+    width: 120px;
+    cursor: pointer;
+    height: 40px;
+    padding: 1px;
+    border-radius: 5px;
+    color: #fffff8;
+    background-color:cyan;
+}
+#c1{
+    width: 140px;
+    color: cyan;
+    height: 40px;
+    padding: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fffff8;
+}
+
+}
+blockquote p {
+    background: #eee;
+    border-radius: 5px;
+    width: 12rem;
+}
+img{
+    height: 300px;
+    width:10rem;
+}
+#b1{
+    background-color: cyan;
+    cursor: pointer ;
+    width: 120px;
+    height: 40px;
+    padding: 1px;
+    border-radius: 5px;
+    color: #fffff8;
+    font-size: 20px;
+    float: right;
+}
+a{
+    color: rgb(4, 92, 92);
+}
+p{
+    background-color: #eee;
+    color: indigo;
+}
+cite{
+    color: chocolate;
+    float: right;
+}
+#d1{
+    width: 50px;
+    height: 50px;
+    background-image: url(img/ld\ icon.png);
+    background-repeat: no-repeat;
+    background-size: 46px 46px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#d2{
+    width: 50px;
+    height: 50px;
+    background-image: url(img/fb\ icon.png);
+    background-repeat: no-repeat;
+    background-size: 46px 46px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#d3{
+    width: 50px;
+    height: 50px;
+    background-image: url(img/ig\ icon.png);
+    background-repeat: no-repeat;
+    background-size: 46px 46px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+figcaption{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: tomato;
+}

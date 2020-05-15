@@ -1,0 +1,32 @@
+body{
+    background-color: dimgrey;
+}
+.disc{
+    padding: 15px;
+    color: cyan;
+}
+button{
+    background-color: cyan;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    padding: 1px;
+    border-radius: 5px;
+    color: #fffff8;
+}
+figcaption{
+    text-align: center;
+    color: rgb(114, 206, 29);
+    font-family: Arial, Helvetica, sans-serif;
+}
+figure{
+    float: right; 
+}
+p{
+    color: rgb(15, 68, 4);
+    font-size: 20px;
+}
+#fig{
+    width: 250px;
+    height: 250px;
+}
